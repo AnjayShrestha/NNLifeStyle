@@ -1,0 +1,44 @@
+@page{padding:0; margin:0;} 
+body{font-family:ayar; font-size:14px;} 
+p{font-family:ayar; font-size:14px;}
+
+#print-container{width: 210mm; height: 297mm; margin: 0 auto; position: relative; font-family: Arial; font-size: 14px; color: #000;}
+#print-container p{line-height: 24px;}
+#print-container .clear{clear: both;}
+#print-container .print-content{padding: 50px;}
+.printHeader{}
+.printHeader h1{font-size: 20px; text-transform: uppercase;}
+#print-container .hleft{float: left; width: 20%;}
+#print-container .hright{float: right; width: 80%; text-align: center;}
+#print-container .hright .bizname p{font-family: Arial; font-weight: bold; font-size: 14px !important;}
+.subprintHeader{background: #EFEFEF; padding: 0; text-align: center;}
+.subprintHeader h2{text-transform: uppercase;}
+	
+#print-container table{width: 100%; border-collapse: collapse; margin: 20px 0;}
+#print-container table, th, td {
+   border: 1px solid black;
+	padding: 10px;
+	font-family: ayar;
+	font-size: 14px;
+}
+#print-container .table-bordered{border-color: black;}
+#print-container .thead-light th{border-color: black; background: #F9F9F9; border-bottom: none;}
+#print-container .table td{border-color: black;}
+#print-container .tdblock{vertical-align: middle; padding-left: 20px;}
+#print-container .tpin{margin-top: 20px;}
+#print-container .tpin p{margin: 0 !important; padding: 0 !important;}
+#print-container .cbox{width: 30%; float: left; margin: 0 2% 0 0;}
+#print-container .cbox p{padding-right: 30px;}
+#print-container .lastline{width: 100%; position: relative;}
+ .actionbtn{width: 100%; position: relative;}
+.actionbtn .buttons{position: absolute; right: 0; z-index: 1000;}
+.actionbtn .buttons div:first-child a{margin-top: 10px;}
+.actionbtn a{margin:5px 0 0 0; width: 120px; border-radius: 0;}
+
+.actionbtn{display:none;} 
+#print-container .hleft{padding-top:25px;} 
+#print-container .hright p{margin:0 !important; padding:0 !important;}
+.subprintHeader{margin-bottom:20px;}
+.cbox h3{margin:0 !important;} 
+.cbox p{margin:0 !important; padding:0 !important;} 
+.tpin p,span{margin:0 !important; padding:0 !important;}

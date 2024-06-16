@@ -1,0 +1,30 @@
+#print-container{width: 210mm; height: 297mm; margin: 0 auto; position: relative; font-family: Arial; font-size: 14px; color: #000;}
+#print-container p{line-height: 24px;}
+#print-container .clear{clear: both;}
+#print-container .print-content{padding: 50px;}
+.printHeader{}
+.printHeader h1{font-size: 20px; text-transform: uppercase;}
+.printHeader .logo{width: auto; height: 80px;}
+#print-container .hleft{float: left; width: 20%;}
+#print-container .hright{float: right; width: 80%; text-align: center;}
+#print-container .hright .bizname p{font-weight: bold;}
+.subprintHeader{background: #EFEFEF; padding: 15px 0; text-align: center;}
+.subprintHeader h2{text-transform: uppercase;}
+.subprintHeader p{font-size: 16px; font-weight: bold;}
+	
+/*#print-container table{width: 100%; border-collapse: collapse; margin: 20px 0 0 0;}*/
+/*#print-container table th,td{border: 1px #000 solid; padding: 10px;}*/
+/*#print-container table th{text-align: left; background: #F9F9F9;}*/
+/*#print-container .tableline{width: 100%; background: #000; height: 1px; margin-bottom: 20px;}*/
+#print-container .table-bordered{border-color: black;}
+#print-container .thead-light th{border-color: black; background: #F9F9F9; border-bottom: none;}
+#print-container .table td{border-color: black;}
+#print-container .tpin{margin-top: 20px;}
+#print-container .cbox{width: 30%; float: left; margin: 30px 2% 20px 0;}
+#print-container .cbox p{padding-right: 30px;}
+#print-container .lastline{width: 100%; position: relative;}
+#print-container .tdblock{vertical-align: middle; padding-left: 20px;}
+ .actionbtn{width: 100%; position: relative;}
+.actionbtn .buttons{position: absolute; right: 0; z-index: 1000;}
+.actionbtn .buttons div:first-child a{margin-top: 10px;}
+.actionbtn a{margin:5px 0 0 0; width: 120px; border-radius: 0;}
